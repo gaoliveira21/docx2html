@@ -1,0 +1,9 @@
+{
+  "name": "docx2json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-easy-docx": "^0.1.3"
+  }
+}
