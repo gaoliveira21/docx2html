@@ -1,9 +1,8 @@
 <p align="center">
   <h1 align="center">:scroll: DOCX2HTML</h1>
   <p align="center">Uma simples CLI desenvolvida em NodeJS para converter arquivos docx para html</p>
+  <b align="center">:warning: A CLI pode apresentar perda de dados ao converter arquivos muito complexos. :warning:</b>
 </p>
-
-<b align="center">:warning: A CLI pode apresentar perda de dados ao converter arquivos muito complexos. :warning:</b>
 
 ## Tecnologias utilizadas
 
