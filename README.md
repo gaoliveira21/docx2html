@@ -1,7 +1,7 @@
-<p align="center">
-  <h1 align="center">:scroll: DOCX2HTML</h1>
-  <p align="center">Uma simples CLI desenvolvida em NodeJS para converter arquivos docx para html</p>
-  <b align="center">:warning: A CLI pode apresentar perda de dados ao converter arquivos muito complexos. :warning:</b>
+<p>
+  <h1>:scroll: DOCX2HTML</h1>
+  <p>Uma simples CLI desenvolvida em NodeJS para converter arquivos docx para html</p>
+  <b>:warning: A CLI pode apresentar perda de dados ao converter arquivos muito complexos. :warning:</b>
 </p>
 
 ## Tecnologias utilizadas
@@ -34,9 +34,9 @@ $ docx2html convert <docxpath> <outputdir> <outputfilename>
 
 ```
 
-- **docxpath:** Caminho até o arquivo .docx (**Exemplo: /home/user/MyDoc.docx**);
-- **outputdir:** Caminho onde o arquivo .html será salvo (**Exemplo: /home/user/MyHTMLDocs**);
-- **outputfilename:** Nome do arquivo .html (**Exemplo: MyDoc**);
+- **:paperclip: docxpath:** Caminho até o arquivo .docx (**Exemplo:** /home/user/MyDoc.docx);
+- **:open_file_folder: outputdir:** Caminho onde o arquivo .html será salvo (**Exemplo:** /home/user/MyHTMLDocs);
+- **bookmark_tabs: outputfilename:** Nome do arquivo .html (**Exemplo:** MyDoc);
 
 ---
 
