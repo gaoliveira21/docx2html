@@ -4,7 +4,7 @@
   <b>:warning: A CLI pode apresentar perda de dados ao converter arquivos muito complexos. :warning:</b>
 </p>
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - [NodeJS](https://nodejs.org/en/)
 - [Commander](https://github.com/tj/commander.js/#installation)
