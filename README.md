@@ -36,7 +36,7 @@ $ docx2html convert <docxpath> <outputdir> <outputfilename>
 
 - **:paperclip: docxpath:** Caminho até o arquivo .docx (**Exemplo:** /home/user/MyDoc.docx);
 - **:open_file_folder: outputdir:** Caminho onde o arquivo .html será salvo (**Exemplo:** /home/user/MyHTMLDocs);
-- **bookmark_tabs: outputfilename:** Nome do arquivo .html (**Exemplo:** MyDoc);
+- **:bookmark_tabs: outputfilename:** Nome do arquivo .html (**Exemplo:** MyDoc);
 
 ---
 
