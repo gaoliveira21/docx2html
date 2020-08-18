@@ -6,7 +6,7 @@ const app = require('./app');
 program.version(package.version);
 
 program.command('convert <docxpath> <outputdir> <outputfilename>')
-  .description('Converte um arquivo .docx para .html')
+  .description('Convert a .docx file to .html')
   .action((docxpath, outputdir, outputfilename) => {
     app(docxpath, outputdir, outputfilename);
   });
