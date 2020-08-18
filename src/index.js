@@ -1,16 +1,14 @@
-const EasyDocx = require('node-easy-docx');
-const HTMLParser = require('./lib/HTMLParser');
+#!/usr/bin/env node
+const program = require('commander');
+const package = require('../package.json');
+const app = require('./app');
 
-const easyDocx = new EasyDocx({
-  path: '/home/gabriel/Downloads/terms.docx'
-});
+program.version(package.version);
 
-easyDocx.parseDocx()
-  .then(data => {
-    const htmlParser = new HTMLParser(data);
-
-    htmlParser.onlyText().createFile('example', 'terms');
-  })
-  .catch(err => {
-    console.error(err);
+program.command('convert <docxpath> <outputdir> <outputfilename>')
+  .description('Converte um arquivo .docx para .html')
+  .action((docxpath, outputdir, outputfilename) => {
+    app(docxpath, outputdir, outputfilename);
   });
+
+program.parse(process.argv);

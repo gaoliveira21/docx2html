@@ -18,7 +18,7 @@ class HTMLParser {
   }
 
   createFile(dir, filename) {
-    const filePath = path.resolve(this.viewsPath, dir);
+    const filePath = path.resolve(dir);
 
     if (!fs.existsSync(filePath)) {
       fs.mkdirSync(filePath);
@@ -60,7 +60,12 @@ class HTMLParser {
     let paragraph = '<p>';
 
     items.forEach(item => {
-      paragraph += item.text;
+      if(item.format && item.format.bold) {
+        paragraph += `<strong>${item.text}</strong>`;
+      } else {
+        paragraph += item.text;
+      }
+      
     });
 
     paragraph += '</p>\n';
